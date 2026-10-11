@@ -1,0 +1,9 @@
+Time,Event,Freq,Base,Result,Attempt,Success,Fail,Count
+11:07:10.724,Intra LTE-HO,(-/-) to (1600/54),eNB,Attempt,1,0,0,
+11:07:11.224,Intra LTE-HO,,eNB,Failure,0,0,1,
+11:17:59.153,Intra LTE-HO,(-/-) to (1600/54),X2,Attempt,1,0,0,
+11:17:59.153,Intra LTE-HO,(-/-) to (1600/54),X2,Success,0,1,0,
+11:18:05.342,Intra LTE-HO,(-/-) to (1600/81),X2,Attempt,1,0,0,
+11:18:05.342,Intra LTE-HO,(-/-) to (1600/81),X2,Success,0,1,0,
+11:18:07.141,Intra LTE-HO,(-/-) to (1600/54),X2,Attempt,1,0,0,
+11:18:07.141,Intra LTE-HO,(-/-) to (1600/54),X2,Success,0,1,0,

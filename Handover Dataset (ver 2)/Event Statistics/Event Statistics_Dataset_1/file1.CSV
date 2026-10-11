@@ -1,0 +1,12 @@
+Time,Event,Freq,Base,Result,Attempt,Success,Fail,Count
+19:33:34.412,Intra LTE-HO,(-/-) to (1600/42),eNB,Attempt,1,0,0,
+19:33:34.413,Intra LTE-HO,(-/-) to (1600/42),eNB,Success,0,1,0,
+19:33:44.520,Idle Mode Load Balancing,EUTRA(275/7) EUTRA(40292/6) EUTRA(40490/6) EUTRA(40688/6) EUTRA(1600/5) EUTRA(3772/4) GERAN(755/2) UTRA-FDD(10663/3) UTRA-FDD(10638/3) T320(min10),,Attempt,1,0,0,
+19:34:13.801,Intra LTE-HO,(-/-) to (40490/166),X2,Attempt,1,0,0,
+19:34:13.801,Intra LTE-HO,(-/-) to (40490/166),X2,Success,0,1,0,
+19:34:23.704,Idle Mode Load Balancing,EUTRA(275/7) EUTRA(1600/7) EUTRA(40292/6) EUTRA(40688/6) EUTRA(40490/6) EUTRA(3772/5) T320(min10),,Attempt,1,0,0,
+19:35:14.823,Intra LTE-HO,(-/-) to (40688/200),eNB,Attempt,1,0,0,
+19:35:14.824,Intra LTE-HO,(-/-) to (40688/200),eNB,Success,0,1,0,
+19:35:21.923,Intra LTE-HO,(-/-) to (40688/166),X2,Attempt,1,0,0,
+19:35:21.923,Intra LTE-HO,(-/-) to (40688/166),X2,Success,0,1,0,
+19:35:31.924,Idle Mode Load Balancing,EUTRA(40292/7) EUTRA(40490/7) EUTRA(275/6) EUTRA(1600/6) EUTRA(40688/5) EUTRA(3772/4) T320(min10),,Attempt,1,0,0,

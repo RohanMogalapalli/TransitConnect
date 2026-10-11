@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions & compiled binaries
+*.so
+*.o
+*.out
+*.exe
+ns3_sim/transitconnect_hsr_sim
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest & Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment variables & secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large raw drive-test binary logs (>500 MB) - keep Processed & Parent CSVs tracked
+Handover Dataset (ver 2)/DRM Files/
+Handover Dataset (ver 2)/Measurement Reports/
+*.drm
