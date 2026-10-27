@@ -2,12 +2,16 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyd
 
 # C extensions & compiled binaries
 *.so
 *.o
+*.obj
 *.out
 *.exe
+*.dll
+*.dylib
 ns3_sim/transitconnect_hsr_sim
 
 # Virtual environments
@@ -15,13 +19,31 @@ ns3_sim/transitconnect_hsr_sim
 venv/
 ENV/
 env/
+env.bak/
+venv.bak/
 
 # Pytest & Testing
 .pytest_cache/
 .coverage
+.coverage.*
 htmlcov/
 .tox/
 .nox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Type checking & linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
 # Distribution / packaging
 build/
@@ -40,12 +62,27 @@ wheels/
 .installed.cfg
 *.egg
 
+# Documentation & generated reports
+docs/
+
 # IDEs & Editors
 .vscode/
 .idea/
+.vs/
 *.swp
 *.swo
 *~
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sublime-workspace
+*.sublime-project
+
+# Office temporary lock files
+~$*.docx
+~$*.xlsx
+~$*.pptx
 
 # OS generated files
 .DS_Store
@@ -56,15 +93,44 @@ wheels/
 ehthumbs.db
 Thumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
 # Environment variables & secrets
 .env
 .env.local
+.env.*.local
 *.pem
 *.key
+*.cert
+*.crt
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Network simulation traces & logs (ns-3 / packet captures)
+*.pcap
+*.pcapng
+*.tr
+*.mob
+
+# Logs & temporary files
+*.log
+logs/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Archives & compressed files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+*.rar
 
 # Large raw drive-test binary logs (>500 MB) - keep Processed & Parent CSVs tracked
 Handover Dataset (ver 2)/DRM Files/
